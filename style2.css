@@ -1,0 +1,72 @@
+h1 {
+  font-size: 26px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-style: italic;
+  color:blue;
+}
+h2{
+  font-family: sans-serif;
+  font-size: 40px;
+}
+h3{
+  font-family: sans-serif;
+  font-size: 30px;
+}
+p {
+  color: cadetblue;
+  font-weight: bold;
+}
+h1,h2,h3{font-family: sans-serif;}
+footer p{font-size: 14px;}
+article footer p{font-size: 14px;}
+body{background:rgb(227, 230, 224);}
+.related-author{
+  font-style: italic;
+  font-weight: bold;
+  font-size: 14px;
+}
+.related-post{list-style: none;}
+article ul li:nth-child(odd){
+   font-weight: bold;
+   color:red
+}
+a:link{
+  color:aqua;
+  text-decoration:none;
+}
+a:visited{
+  color:rgb(255, 0, 191)
+}
+a:hover{
+  color:blueviolet;
+  font-size: bold;
+  text-decoration: underline blueviolet;
+}
+a:active{
+  background-color: black;
+  font-style: italic;
+}
+
+/* Resolving conflicts */
+/* Comment one which of the following four text color rules will be applied.*/
+/*an id is more specific than class. Class more specific than element selector */
+
+#copyright {
+  
+  color: red;
+}
+
+.copyright {
+  color: blue;
+}
+
+.text {
+  color: yellow;
+}
+
+footer p {
+  color: green;
+}
+
+/* End of resolving conflicts secion */
